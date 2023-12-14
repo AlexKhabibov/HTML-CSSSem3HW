@@ -11,22 +11,74 @@ a {
     margin-top: 51px;
 }
 
-.nav-text-word-Home {
+.nav-text-Home {
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 346px;
 }
 
-.nav-text {
+.nav-text-AboutUs {
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-left: 36px;
+}
+
+.nav-text-Services {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 36px;
+}
+
+.nav-text-Features {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 36px;
+}
+
+.nav-text-Team {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 36px;
+}
+
+.nav-text-Blog {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 36px;
+}
+
+.nav-text-Contact {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 36px;
 }
 
 .text-logo-Grow {
