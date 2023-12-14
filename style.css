@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    margin-top: 51px;
+}
+
+.nav-text-word-Home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-text {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-logo-Grow {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-logo-Be {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-top-text {
+    padding-top: 127px;
+}
+
+.content-top-h1 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraph {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+
+.button-left {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border-radius: 50px;
+    background: #F25822;
+
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.button-right {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+
+    border-radius: 50px;
+    
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.content-logo {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
