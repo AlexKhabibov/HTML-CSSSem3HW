@@ -6,16 +6,23 @@
 
 @font-face { 
     font-family: "GilroyBold";
-    src: url("/GilroyBold.ttf") format("truetype");
+    src: url("./GilroyBold.ttf") format("truetype");
     font-style: normal;
     font-weight: 700;
 }
 
 @font-face { 
     font-family: "GilroyMedium";
-    src: url("/GilroyMedium.ttf") format("truetype");
+    src: url("./GilroyMedium.ttf") format("truetype");
     font-style: normal;
     font-weight: 500;
+}
+
+@font-face { 
+    font-family: "GilroyRegular";
+    src: url("./GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
 }
 
 a {
@@ -28,8 +35,8 @@ a {
 }
 
 .nav {
-    margin-top: 51px;
-    margin-bottom: 96px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,12 +45,12 @@ a {
 .nav-logo {
     display: flex;
     align-items: center;
-    margin-right: 14px;
+    gap: 14px;
 }
 
 .nav-menu {
     color: #000;
-    font-family: "Gilroy-Medium";
+    font-family: "GilroyMedium";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -54,7 +61,7 @@ a {
 
 .nav-menu-links {
     color: #000;
-    font-family: "Gilroy-Medium";
+    font-family: "GilroyMedium";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -69,7 +76,7 @@ a {
 
 .text-logo-Grow {
     color: #000;
-    font-family: "Gilroy-Bold";
+    font-family: "GilroyBold";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -77,7 +84,7 @@ a {
 }
 
 .text-logo-Be {
-    font-family: "Gilroy-Bold";
+    font-family: "GilroyBold";
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -85,15 +92,13 @@ a {
 }
 
 .content-top-text {
-    margin-right: 41px;
     display: flex;
     flex-direction: column;
-
 }
 
 .content-top-h1 {
     color: #000;
-    font-family: "Gilroy-Bold";
+    font-family: "GilroyBold";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -104,7 +109,7 @@ a {
 
 .paragraph {
     color: #888;
-    font-family: "Gilroy-Medium";
+    font-family: "GilroyMedium";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -122,7 +127,7 @@ a {
 
 .button-left {
     color: #FFF;
-    font-family: "Gilroy-Bold";
+    font-family: "GilroyBold";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -140,7 +145,7 @@ a {
 
 .button-right {
     color: #AAA;
-    font-family: "Gilroy-Bold";
+    font-family: "GilroyBold";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -157,5 +162,7 @@ a {
 .content-top {
     display: flex;
     flex-direction: row;
-
+    gap: 41px;
+    padding-top: 44px;
+    padding-bottom: 162px;
 }
